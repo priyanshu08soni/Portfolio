@@ -1,0 +1,41 @@
+ @media screen and (max-width:1600px) {
+        body{
+
+
+        }
+        footer{
+          display: none;
+        }
+        .secondSection .vertical{
+          height: unset;
+        }
+        .box{
+          flex-direction: column;
+        }
+        .vertical-title,.vertical-desc{
+          left: 45px;
+        }
+        .secondSection .box{
+          width: 50vw;
+        }
+        nav{
+          flex-direction: column;
+        }
+        .firstSection{
+          flex-direction: column-reverse;
+        }
+        .leftSection{
+          width: 100% !important;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+
+
+        }
+        .rightSection img{
+          width: 100%;
+        }
+        
+      }
